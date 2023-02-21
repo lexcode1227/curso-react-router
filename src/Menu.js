@@ -30,11 +30,19 @@ routes.push({
 });
 routes.push({
     to: "/blog",
-    text: "BlogPage",
+    text: "Blog",
 });
 routes.push({
     to: "/profile",
-    text: "ProfilePage",
+    text: "Profile",
+});
+routes.push({
+    to: "/login",
+    text: "Login",
+});
+routes.push({
+    to: "/logout",
+    text: "Logout",
 });
 
 export { Menu };
